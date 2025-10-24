@@ -3,4 +3,5 @@ python-dotenv
 ipykernel
 langchain-community
 pandas
+langchain-memory
 langchain-groq
