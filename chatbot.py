@@ -20,7 +20,7 @@ st.title("💬 Conversational Chatbot with Message History")
 
 model_name = st.sidebar.selectbox(
     "Please select Groq Model",
-    ["qwen/qwen3-32b","llama-3.1-8b-instant"]
+    ["qwen/qwen3-32b","llama-3.1-8b-instant","openai/gpt-oss-20b"]
 )
 
 temperature = st.sidebar.slider(
